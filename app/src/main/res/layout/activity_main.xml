@@ -8,12 +8,22 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvContacts"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="482dp"
+        android:layout_height="814dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivadd"
+        android:layout_width="118dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_add_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>
